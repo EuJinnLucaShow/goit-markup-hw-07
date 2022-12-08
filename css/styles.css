@@ -125,7 +125,7 @@ header .container {
   transform: scaleX(1);
 }
 
-.page-header__link::after {
+.page-header__current::after {
   display: block;
   position: absolute;
   content: '';
@@ -144,7 +144,7 @@ header .container {
   color: var(--second-blue-color);
 }
 
-.page-header__current::before {
+.page-header__current::after {
   display: block;
   position: absolute;
   content: '';
@@ -154,7 +154,6 @@ header .container {
   height: 4px;
   background: var(--second-blue-color);
   border-radius: 2px;
-  opacity: 1;
 }
 
 .page-header__contacts {
