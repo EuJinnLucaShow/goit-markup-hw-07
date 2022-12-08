@@ -144,7 +144,7 @@ header .container {
   color: var(--second-blue-color);
 }
 
-.page-header__current::after {
+.page-header__current::before {
   display: block;
   position: absolute;
   content: '';
