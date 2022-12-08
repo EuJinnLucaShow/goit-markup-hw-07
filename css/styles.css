@@ -119,7 +119,27 @@ header .container {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Contact header */
+.page-header__link:hover::after,
+.page-header__link:focus::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.page-header__link::after {
+  display: block;
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--second-blue-color);
+  border-radius: 2px;
+  opacity: 0;
+  color: var(--second-blue-color);
+  transform: scaleX(0);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .page-header__contacts {
   margin-left: auto;
@@ -156,18 +176,6 @@ header .container {
   fill: var(--second-blue-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.page-header__line::after {
-  display: block;
-  position: absolute;
-  content: '';
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 4px;
-  background: var(--second-blue-color);
-  border-radius: 2px;
 }
 
 /* Block hero */
