@@ -136,7 +136,6 @@ header .container {
   background: var(--second-blue-color);
   border-radius: 2px;
   opacity: 0;
-  color: var(--second-blue-color);
   transform: scaleX(0);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
