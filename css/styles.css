@@ -764,7 +764,7 @@ header .container {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.email-modal-title {
+.modal__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -775,7 +775,7 @@ header .container {
   padding: 10px;
 }
 
-.modal-form-item {
+.modal__input {
   height: 40px;
   width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -786,45 +786,45 @@ header .container {
   cursor: pointer;
 }
 
-.form-field {
-  position: relative;
-}
-
-.form-field:focus-within {
-  fill: var(--second-blue-color);
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.form-field:hover {
-  fill: var(--second-blue-color);
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-form-item:hover,
-.modal-form-item:focus {
+.modal__input:hover,
+.modal__input:focus {
   border-color: var(--second-blue-color);
   outline: none;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-commit:hover,
-.modal-form-commit:focus {
+.modal__icon {
+  position: absolute;
+  top: 25%;
+  left: 12px;
+}
+
+.modal__input-group {
+  position: relative;
+}
+
+.modal__input-group:focus-within {
+  fill: var(--second-blue-color);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__input-group:hover {
+  fill: var(--second-blue-color);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__commit:hover,
+.modal__commit:focus {
   border-color: #2196f3;
   outline: none;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-form {
-  position: absolute;
-  top: 25%;
-  left: 12px;
-}
-
-.modal-form-commit {
+.modal__commit {
   height: 120px;
   width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -835,7 +835,7 @@ header .container {
   resize: none;
 }
 
-.modal-form-commit {
+.modal__commit {
   padding-top: 12px;
   padding-left: 16px;
   font-weight: 400;
@@ -845,7 +845,7 @@ header .container {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.modal-label {
+.modal__label {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
@@ -854,7 +854,7 @@ header .container {
   color: #757575;
 }
 
-.btn-modal-form {
+.modal__btn {
   margin-left: 124px;
   margin-top: 30px;
   width: 200px;
@@ -866,14 +866,14 @@ header .container {
   border-color: transparent;
 }
 
-.btn-modal-form:hover,
-.btn-modal-form:focus {
+.modal__btn:hover,
+.modal__btn:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-modal {
+.modal__btn-close {
   position: absolute;
   right: 8px;
   top: 8px;
@@ -888,8 +888,8 @@ header .container {
   justify-content: center;
 }
 
-.btn-modal:hover,
-.btn-modal:focus {
+.modal__btn-close:hover,
+.modal__btn-close:focus {
   fill: #2196f3;
   outline: none;
   transition: 250ms;
@@ -898,19 +898,19 @@ header .container {
 
 /* stylization checkbox */
 
-.custom-checkbox {
+.checkbox__input {
   position: absolute;
   z-index: -1;
   opacity: 0;
 }
 
-.custom-checkbox + label {
+.checkbox__input + span {
   display: inline-flex;
   align-items: center;
   padding-left: 14px;
   user-select: none;
 }
-.custom-checkbox + label::before {
+.checkbox__input + span::before {
   content: '';
   display: inline-block;
   width: 16px;
@@ -926,21 +926,21 @@ header .container {
   background-size: 50% 50%;
 }
 
-.custom-checkbox:hover + label::before,
-.custom-checkbox:focus + label::before {
+.checkbox__input:hover + span::before,
+.checkbox__input:focus + span::before {
   border-color: var(--second-blue-color);
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.custom-checkbox:checked + label::before {
+.checkbox__input:checked + span::before {
   background-size: contain;
   background-origin: border-box;
   border-color: transparent;
   background-image: url(../images/icon_check.svg);
 }
 
-.text-checkbox {
+.checkbox__text {
   height: 24px;
   font-weight: 400;
   font-size: 14px;
@@ -949,7 +949,7 @@ header .container {
   color: #757575;
 }
 
-.form-link {
+.checkbox__link {
   margin-left: 4px;
   text-decoration-line: underline;
   color: #2196f3;
