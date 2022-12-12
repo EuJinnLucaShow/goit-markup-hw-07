@@ -206,7 +206,7 @@ header .container {
   color: #fff;
   border-radius: 4px;
   border: none;
-  padding: 10px 32px 10px 32px;
+  padding: 10px 32px;
   cursor: pointer;
   font-family: "Roboto";
   font-weight: 700;
@@ -722,6 +722,9 @@ header .container {
   display: flex;
   align-items: center;
   text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
   letter-spacing: 0.06em;
   padding-left: 28px;
   width: 200px;
@@ -869,6 +872,10 @@ header .container {
   margin-top: 30px;
   width: 200px;
   height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
   color: #fff;
   background: #2196f3;
   border-radius: 4px;
