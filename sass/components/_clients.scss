@@ -49,7 +49,7 @@
 
 .clients__link:hover .clients__icon,
 .clients__link:focus .clients__icon {
-    fill: var(--second-blue-color);
+    fill: $second-blue-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

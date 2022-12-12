@@ -28,7 +28,7 @@
     width: 528px;
     min-height: 581px;
     padding: 40px;
-    background: var(--primary-white-color);
+    background: $primary-white-color;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -60,7 +60,7 @@
 
 .modal__input:hover,
 .modal__input:focus {
-    border-color: var(--second-blue-color);
+    border-color: $second-blue-color;
     outline: none;
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -77,20 +77,20 @@
 }
 
 .modal__input-group:focus-within {
-    fill: var(--second-blue-color);
+    fill: $second-blue-color;
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__input-group:hover {
-    fill: var(--second-blue-color);
+    fill: $second-blue-color;
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__commit:hover,
 .modal__commit:focus {
-    border-color: #2196f3;
+    border-color: $second-blue-color;
     outline: none;
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -122,7 +122,6 @@
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
-
     color: #757575;
 }
 
@@ -162,7 +161,7 @@
 
 .modal__btn-close:hover,
 .modal__btn-close:focus {
-    fill: #2196f3;
+    fill: $second-blue-color;
     outline: none;
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -201,7 +200,7 @@
 
 .checkbox__input:hover+span::before,
 .checkbox__input:focus+span::before {
-    border-color: var(--second-blue-color);
+    border-color: $second-blue-color;
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -225,5 +224,5 @@
 .checkbox__link {
     margin-left: 4px;
     text-decoration-line: underline;
-    color: #2196f3;
+    color: $second-blue-color;
 }

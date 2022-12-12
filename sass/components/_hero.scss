@@ -21,12 +21,12 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     max-width: 696px;
-    color: var(--primary-white-color);
+    color: $primary-white-color;
 }
 
 .button {
-    background: var(--second-blue-color);
-    color: var(--primary-white-color);
+    background: $second-blue-color;
+    color: $primary-white-color;
     border-radius: 4px;
     border: none;
     padding: 10px 32px 10px 32px;
@@ -42,7 +42,7 @@
 .button:focus {
     background: #188ce8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    color: white;
+    color: $primary-white-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

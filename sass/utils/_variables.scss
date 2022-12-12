@@ -1,9 +1,9 @@
-:root {
-    --primary-text-color: #212121;
-    --second-text-color: #757575;
-    --primary-white-color: #fff;
-    --second-blue-color: #2196f3;
-}
+
+    $primary-text-color: #212121;
+    $second-text-color: #757575;
+    $primary-white-color: #fff;
+    $second-blue-color: #2196f3;
+
 
 p,
 h1,
@@ -19,8 +19,8 @@ body {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-    background-color: var(--primary-white-color);
+    color: $primary-text-color;
+    background-color: $primary-white-color;
 }
 
 a {
@@ -44,5 +44,5 @@ section {
 
 footer {
     background: #2f303a;
-    color: var(--primary-white-color);
+    color: $primary-white-color;
 }

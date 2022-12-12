@@ -24,9 +24,9 @@
 
 .filters__btn:hover,
 .filters__btn:focus {
-    background: var(--second-blue-color);
+    background: $second-blue-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    color: var(--primary-white-color);
+    color: $primary-white-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

@@ -17,7 +17,7 @@
     width: 100%;
     height: 100%;
     display: flex;
-    background-color: var(--primary-white-color);
+    background-color: $primary-white-color;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
@@ -25,14 +25,14 @@
 
 .team__soclink:hover,
 .team__soclink:focus {
-    background-color: var(--second-blue-color);
+    background-color: $second-blue-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team__soclink:hover .team__soc-icon,
 .team__soclink:focus .team__soc-icon {
-    fill: var(--primary-white-color);
+    fill: $primary-white-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
