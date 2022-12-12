@@ -4,11 +4,12 @@
 
 .features__list {
     display: flex;
+
+    &>li:not(:last-child) {
+            margin-right: 30px;
+        }
 }
 
-.features__list>li:not(:last-child) {
-    margin-right: 30px;
-}
 
 .features__item {
     width: 270px;

@@ -243,7 +243,6 @@ header .container {
 .features__list {
   display: flex;
 }
-
 .features__list > li:not(:last-child) {
   margin-right: 30px;
 }
@@ -294,7 +293,6 @@ header .container {
 .about__list {
   display: flex;
 }
-
 .about__list > li:not(:last-child) {
   margin-right: 30px;
 }
@@ -341,7 +339,6 @@ header .container {
 .team__list {
   display: flex;
 }
-
 .team__list > li:not(:last-child) {
   margin-right: 30px;
 }

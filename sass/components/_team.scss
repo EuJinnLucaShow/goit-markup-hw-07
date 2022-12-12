@@ -15,10 +15,10 @@
 
 .team__list {
     display: flex;
-}
 
-.team__list>li:not(:last-child) {
-    margin-right: 30px;
+    &>li:not(:last-child) {
+            margin-right: 30px;
+        }
 }
 
 .team__item {

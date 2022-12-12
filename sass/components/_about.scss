@@ -10,10 +10,10 @@
 
 .about__list {
     display: flex;
-}
 
-.about__list>li:not(:last-child) {
-    margin-right: 30px;
+    &>li:not(:last-child) {
+            margin-right: 30px;
+        }
 }
 
 .about__item {
