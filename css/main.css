@@ -101,9 +101,7 @@ header .container {
   letter-spacing: 0.02em;
   color: #212121;
 }
-
-.page-header__link:hover,
-.page-header__link:focus {
+.page-header__link:hover, .page-header__link:focus {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -155,15 +153,7 @@ header .container {
   color: #757575;
   border: none;
 }
-
-.page-header__icon {
-  margin-right: 10px;
-  padding: 0;
-  fill: #757575;
-}
-
-.page-header__contact:hover,
-.page-header__contact:focus {
+.page-header__contact:hover, .page-header__contact:focus {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -174,6 +164,12 @@ header .container {
   fill: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.page-header__icon {
+  margin-right: 10px;
+  padding: 0;
+  fill: #757575;
 }
 
 .hero {
@@ -218,9 +214,7 @@ header .container {
   height: 50px;
   margin-top: 30px;
 }
-
-.button:hover,
-.button:focus {
+.button:hover, .button:focus {
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: #fff;
@@ -448,16 +442,14 @@ header .container {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-
-.clients__item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.clients__item:hover,
-.clients__item:focus {
+.clients__item:hover, .clients__item:focus {
   border-color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients__item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .clients__link {
@@ -505,9 +497,7 @@ header .container {
   text-align: center;
   height: 38px;
 }
-
-.filters__btn:hover,
-.filters__btn:focus {
+.filters__btn:hover, .filters__btn:focus {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: #fff;
@@ -530,9 +520,7 @@ header .container {
 .grid__item {
   display: block;
 }
-
-.grid__item:hover,
-.grid__item:focus {
+.grid__item:hover, .grid__item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -674,9 +662,7 @@ header .container {
   justify-content: center;
   align-items: center;
 }
-
-.page-footer__soclink:hover,
-.page-footer__soclink:focus {
+.page-footer__soclink:hover, .page-footer__soclink:focus {
   background-color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -799,9 +785,7 @@ header .container {
   margin-bottom: 10px;
   cursor: pointer;
 }
-
-.modal__input:hover,
-.modal__input:focus {
+.modal__input:hover, .modal__input:focus {
   border-color: #2196f3;
   outline: none;
   transition: 250ms;
@@ -817,23 +801,14 @@ header .container {
 .modal__input-group {
   position: relative;
 }
-
-.modal__input-group:focus-within {
-  fill: #2196f3;
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .modal__input-group:hover {
   fill: #2196f3;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__commit:hover,
-.modal__commit:focus {
-  border-color: #2196f3;
-  outline: none;
+.modal__input-group:focus-within {
+  fill: #2196f3;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -847,6 +822,12 @@ header .container {
   margin-top: 4px;
   margin-bottom: 20px;
   resize: none;
+}
+.modal__commit:hover, .modal__commit:focus {
+  border-color: #2196f3;
+  outline: none;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__commit {
@@ -882,9 +863,7 @@ header .container {
   cursor: pointer;
   border-color: transparent;
 }
-
-.modal__btn:hover,
-.modal__btn:focus {
+.modal__btn:hover, .modal__btn:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -904,9 +883,7 @@ header .container {
   align-items: center;
   justify-content: center;
 }
-
-.modal__btn-close:hover,
-.modal__btn-close:focus {
+.modal__btn-close:hover, .modal__btn-close:focus {
   fill: #2196f3;
   outline: none;
   transition: 250ms;

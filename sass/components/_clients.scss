@@ -20,17 +20,18 @@
     height: 92px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
+
+    &:hover,
+        &:focus {
+            border-color: $second-blue-color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
 }
+
 
 .clients__item:not(:last-child) {
     margin-right: 30px;
-}
-
-.clients__item:hover,
-.clients__item:focus {
-    border-color: $second-blue-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients__link {

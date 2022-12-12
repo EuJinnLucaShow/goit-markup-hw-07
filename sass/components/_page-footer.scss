@@ -82,14 +82,15 @@
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+
+    &:hover,
+        &:focus {
+            background-color: $second-blue-color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
 }
 
-.page-footer__soclink:hover,
-.page-footer__soclink:focus {
-    background-color: $second-blue-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .page-footer__mailing-form {
     display: flex;

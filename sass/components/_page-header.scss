@@ -52,13 +52,13 @@ header .container {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: $primary-text-color;
-}
 
-.page-header__link:hover,
-.page-header__link:focus {
-    color: $second-blue-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+        &:focus {
+            color: $second-blue-color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
 }
 
 .page-header__link:hover::after,
@@ -106,19 +106,13 @@ header .container {
     letter-spacing: 0.02em;
     color: $second-text-color;
     border: none;
-}
 
-.page-header__icon {
-    margin-right: 10px;
-    padding: 0;
-    fill: $second-text-color;
-}
-
-.page-header__contact:hover,
-.page-header__contact:focus {
-    color: $second-blue-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+        &:focus {
+            color: $second-blue-color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
 }
 
 .page-header__contact:hover .page-header__icon,
@@ -126,4 +120,10 @@ header .container {
     fill: $second-blue-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.page-header__icon {
+    margin-right: 10px;
+    padding: 0;
+    fill: $second-text-color;
 }
