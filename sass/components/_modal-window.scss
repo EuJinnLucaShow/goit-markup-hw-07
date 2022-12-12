@@ -42,7 +42,7 @@
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: $primary-text-color;
     width: 100%;
     padding: 10px;
 }
@@ -130,8 +130,8 @@
     margin-top: 30px;
     width: 200px;
     height: 50px;
-    color: #fff;
-    background: #2196f3;
+    color: $primary-white-color;
+    background: $second-blue-color;
     border-radius: 4px;
     cursor: pointer;
     border-color: transparent;
@@ -189,7 +189,7 @@
     height: 15px;
     flex-shrink: 0;
     flex-grow: 0;
-    border: 2px solid #212121;
+    border: 2px solid $primary-text-color;
     border-radius: 2px;
     margin-right: 8px;
     cursor: pointer;
