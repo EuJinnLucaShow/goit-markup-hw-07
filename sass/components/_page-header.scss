@@ -19,7 +19,7 @@ header .container {
 /* Logo */
 
 .logo {
-    font-family: 'Raleway';
+    font-family: $accent-font;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -99,7 +99,7 @@ header .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Roboto';
+    font-family: $primary-font;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;

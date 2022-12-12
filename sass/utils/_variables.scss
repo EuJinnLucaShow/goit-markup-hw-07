@@ -4,6 +4,8 @@
     $primary-white-color: #fff;
     $second-blue-color: #2196f3;
 
+    $primary-font: 'Roboto';
+    $accent-font: 'Raleway';
 
 p,
 h1,
@@ -17,7 +19,7 @@ h6 {
 
 body {
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
+    font-family: $primary-font, sans-serif;
     letter-spacing: 0.03em;
     color: $primary-text-color;
     background-color: $primary-white-color;
