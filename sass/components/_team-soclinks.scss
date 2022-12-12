@@ -21,13 +21,13 @@
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-}
 
-.team__soclink:hover,
-.team__soclink:focus {
-    background-color: $second-blue-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+        &:focus {
+            background-color: $second-blue-color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
 }
 
 .team__soclink:hover .team__soc-icon,

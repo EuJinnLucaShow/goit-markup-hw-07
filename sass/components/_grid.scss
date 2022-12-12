@@ -49,6 +49,13 @@
 .grid__box {
     position: relative;
     overflow: hidden;
+
+    &:hover .grid__overlay,
+        &:focus .grid__overlay {
+            transform: translateY(0);
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
 }
 
 .grid__overlay {
@@ -58,13 +65,6 @@
     background-color: rgba(33, 150, 243, 0.9);
     transform: translateY(101%);
     transition: transform 250ms;
-}
-
-.grid__box:hover .grid__overlay,
-.grid__box:focus .grid__overlay {
-    transform: translateY(0);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .grid__box-link:focus .grid__overlay {

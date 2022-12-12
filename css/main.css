@@ -400,9 +400,7 @@ header .container {
   justify-content: center;
   align-items: center;
 }
-
-.team__soclink:hover,
-.team__soclink:focus {
+.team__soclink:hover, .team__soclink:focus {
   background-color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -461,16 +459,14 @@ header .container {
   justify-content: center;
   align-items: center;
 }
-
-.clients__icon {
-  fill: currentColor;
-}
-
-.clients__link:hover .clients__icon,
-.clients__link:focus .clients__icon {
+.clients__link:hover .clients__icon, .clients__link:focus .clients__icon {
   fill: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients__icon {
+  fill: currentColor;
 }
 
 .filters {
@@ -554,6 +550,11 @@ header .container {
   position: relative;
   overflow: hidden;
 }
+.grid__box:hover .grid__overlay, .grid__box:focus .grid__overlay {
+  transform: translateY(0);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .grid__overlay {
   position: absolute;
@@ -562,13 +563,6 @@ header .container {
   background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(101%);
   transition: transform 250ms;
-}
-
-.grid__box:hover .grid__overlay,
-.grid__box:focus .grid__overlay {
-  transform: translateY(0);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .grid__box-link:focus .grid__overlay {
@@ -801,13 +795,7 @@ header .container {
 .modal__input-group {
   position: relative;
 }
-.modal__input-group:hover {
-  fill: #2196f3;
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal__input-group:focus-within {
+.modal__input-group:hover, .modal__input-group:focus-within {
   fill: #2196f3;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

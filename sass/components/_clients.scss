@@ -29,7 +29,6 @@
         }
 }
 
-
 .clients__item:not(:last-child) {
     margin-right: 30px;
 }
@@ -42,15 +41,15 @@
     color: #afb1b8;
     justify-content: center;
     align-items: center;
+
+    &:hover .clients__icon,
+        &:focus .clients__icon {
+            fill: $second-blue-color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
 }
 
 .clients__icon {
     fill: currentColor;
-}
-
-.clients__link:hover .clients__icon,
-.clients__link:focus .clients__icon {
-    fill: $second-blue-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

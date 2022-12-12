@@ -75,17 +75,12 @@
 .modal__input-group {
     position: relative;
 
-    &:hover {
+    &:hover,
+    &:focus-within {
             fill: $second-blue-color;
             transition: 250ms;
             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         }
-}
-
-.modal__input-group:focus-within {
-    fill: $second-blue-color;
-    transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__commit {
